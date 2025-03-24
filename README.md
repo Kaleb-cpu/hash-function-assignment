@@ -1,17 +1,20 @@
-# Python Virtual Environment Project
+# Hash Function Implementation
 
-This project demonstrates how to create and use a Python virtual environment for managing dependencies and isolation of Python packages.
+This project implements a simple hash function in Python, with collision handling, salting, and additional cryptographic features.
+
+## Features
+
+1. **Simple Hash Function**: Computes a hash value between 0 and 9 based on the sum of ASCII values of the key.
+2. **Collision Handling**: Uses chaining (linked lists) to resolve hash collisions.
+3. **Salting**: Implements salting to generate a secure 64-bit hash output.
+4. **Testing**: Hashes a list of keys and handles collisions with chained nodes.
 
 ## Setup
 
-Follow these steps to set up the virtual environment for this project:
-
 ### 1. Clone the repository
-If you haven't already, clone the repository to your local machine.
 
-### 2. Create a Virtual Environment
-
-Navigate to the project directory and create a new virtual environment:
+Clone the project to your local machine:
 
 ```bash
-python -m venv venv
+git clone <repo-url>
+cd <project-directory>
